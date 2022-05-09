@@ -5,3 +5,5 @@ https://www.youtube.com/watch?v=GMppyAPbLYk
 
 And new repository:
 https://github.com/xwojziarnik/TechWithTim-REST-API
+
+Update (09.05.2022) - tutorial is done. Go and check :)
