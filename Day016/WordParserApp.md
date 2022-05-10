@@ -4,4 +4,5 @@ After finishing the "TechWithTim-REST-API" tutorial I think I can come back to p
 
 Link to our repository: https://github.com/daada95/WordParser
 
-This day I'll create Flask files in repo, more things tomorrow :)
+09.05.2022: This day I'll create Flask files in repo, more things tomorrow :)
+10.05.2022: Today I have created test templates and func to upload .docx file, tomorrow I'm going to catch that file and push it into parser.
