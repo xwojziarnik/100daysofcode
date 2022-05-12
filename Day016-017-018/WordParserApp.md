@@ -9,3 +9,5 @@ Link to our repository: https://github.com/daada95/WordParser
 10.05.2022: Today I have created test templates and func to upload .docx file, tomorrow I'm going to catch that file and push it into parser.
 
 11.05.2022: File received, also received email adress. Moreover - connected to MongoDB cluster. Next step: parse and upload to MongoDB database!
+
+12.05.2022: Got errors while trying to parse file without saving file on server at first. Tomorrow I'll try to save a file and then parse it.
