@@ -10,3 +10,4 @@ For today (day039) I've created git repo, project, apps and db using MySQL Workb
 
 Day040: Today I've hidden the app passwords, created a base template in main directory, dashboard template in Users app and first dashboard func. Everything is working well.
 
+Day041: Still doing users app. Created login form, logout redirect, got one issue when I want to change my password -> than Django includes admin panel - I don't know why, but I have to solve it.
