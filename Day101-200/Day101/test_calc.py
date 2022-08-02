@@ -11,6 +11,10 @@ class TestCalc(unittest.TestCase):
         result = calc("-", 7, 3)
         self.assertEqual(4, result)
 
+    def test_multiply(self):
+        result = calc("*", 7, 3)
+        self.assertEqual(21, result)
+
 
 if __name__ == '__main__':
     unittest.main()
