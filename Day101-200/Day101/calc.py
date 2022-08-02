@@ -15,17 +15,15 @@ def divide(x, y):
 
 
 def calc(operator, x, y):
-    if operator == "+":
-        return add(x, y)
 
-    elif operator == "-":
-        return subtract(x, y)
+    operators = {
+        "+": add,
+        "-": subtract,
+        "*": multiply,
+        "/": divide
+    }
+    method = operators.get(operator)
+    if method:
+        return method(x, y)
 
-    elif operator == "*":
-        return multiply(x, y)
-
-    elif operator == "/":
-        return divide(x, y)
-
-    else:
-        return None
+    return None
