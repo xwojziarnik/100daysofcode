@@ -7,3 +7,9 @@ def calc(operator, x, y):
 
     elif operator == "*":
         return x * y
+
+    elif operator == "/":
+        return x / y
+
+    else:
+        return None
