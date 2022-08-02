@@ -1,28 +1,15 @@
-def add(x, y):
-    return x + y
-
-
-def subtract(x, y):
-    return x - y
-
-
-def multiply(x, y):
-    return x * y
-
-
-def divide(x, y):
-    return x / y
+from operator import truediv, mul, add, sub
 
 
 def calc(operator, x, y):
 
     operators = {
         "+": add,
-        "-": subtract,
-        "*": multiply,
-        "/": divide
+        "-": sub,
+        "*": mul,
+        "/": truediv
     }
-    method = operators.get(operator)
+    method = operators.get(operator, lambda x, y: None)
     if method:
         return method(x, y)
 
